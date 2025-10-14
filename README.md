@@ -5,10 +5,22 @@
 
 ---
 
-### 🌐 Live Links
+### 🌐 Live Project Access
+
+You can directly **check and test the project live** using the following links:
+
 - **Frontend (UI):** [https://bookstore-project-ui.netlify.app/](https://bookstore-project-ui.netlify.app/)
 - **Backend (API):** [https://bookstore-prod.onrender.com](https://bookstore-prod.onrender.com)
 - **GitHub Repository:** [https://github.com/dhanrajdhasure7143/bookstore](https://github.com/dhanrajdhasure7143/bookstore)
+
+---
+
+### 👥 User Credentials
+
+| Role  | Username | Password   | Access      |
+|-------|-----------|------------|--------------|
+| Admin | admin     | admin123   | Full CRUD    |
+| User  | user      | user123    | Read-only    |
 
 ---
 
