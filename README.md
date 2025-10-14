@@ -1,7 +1,16 @@
 # 📚 Bookstore Management System
 
 > **Spring Boot Practical Task Implementation**  
-> A comprehensive RESTful web application for managing a bookstore system with role-based authentication, validation, and comprehensive testing.
+> A RESTful web application for managing a bookstore system with role-based authentication, validation, and testing.
+
+---
+
+### 🌐 Live Links
+- **Frontend (UI):** [https://bookstore-project-ui.netlify.app/](https://bookstore-project-ui.netlify.app/)
+- **Backend (API):** [https://bookstore-prod.onrender.com](https://bookstore-prod.onrender.com)
+- **GitHub Repository:** [https://github.com/dhanrajdhasure7143/bookstore](https://github.com/dhanrajdhasure7143/bookstore)
+
+---
 
 ## 🎯 Project Overview
 
