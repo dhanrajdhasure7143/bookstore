@@ -64,29 +64,44 @@ src/
 
 ### **Prerequisites**
 - Java 17 or higher
-- Maven 3.6+
+- Maven 3.6+ (or use included Maven wrapper)
 
-### **Installation & Setup**
+### **Setup & Run**
 
-1. **Checkout the path**
+1. **Navigate to backend directory**
    ```bash
-   cd bookstore
+   cd "Close Digit/bookstore"
    ```
 
-2. **Build the project**
+2. **Build and run**
    ```bash
+   # Build the project
+   mvn clean install
+   
+   # Run tests
+   mvn test
+   
+   # Start the application
+   mvn spring-boot:run
+   ```
+
+   **Alternative (if Maven not installed):**
+   ```bash
+   # Windows
+   mvnw.cmd clean install
+   mvnw.cmd test
+   mvnw.cmd spring-boot:run
+   
+   # Linux/Mac
    ./mvnw clean install
-   ```
-
-3. **Run the application**
-   ```bash
+   ./mvnw test
    ./mvnw spring-boot:run
    ```
 
-4. **Access the application**
+3. **Access the application**
    - **API Base URL**: `http://localhost:8080/api`
    - **H2 Console**: `http://localhost:8080/h2-console`
-   - **Web UI**: Open `bookstore-ui-new/index.html` in your browser
+   - **Web UI**: Open `Close Digit/bookstore-ui/index.html` in your browser
 
 ### **Default Credentia
 | Role  | Username | Password | Permissions |
