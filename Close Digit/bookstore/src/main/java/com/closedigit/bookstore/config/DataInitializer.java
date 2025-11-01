@@ -52,7 +52,7 @@ public class DataInitializer implements CommandLineRunner {
                         User admin = new User(
                                         "admin",
                                         "admin@bookstore.com",
-                                        passwordEncoder.encode("admin123"),
+                                        passwordEncoder.encode("admin"),
                                         Role.ADMIN);
                         userRepository.save(admin);
                         logger.info("Default admin user created: admin/admin123");
@@ -63,7 +63,7 @@ public class DataInitializer implements CommandLineRunner {
                         User user = new User(
                                         "user",
                                         "user@bookstore.com",
-                                        passwordEncoder.encode("user123"),
+                                        passwordEncoder.encode("user"),
                                         Role.USER);
                         userRepository.save(user);
                         logger.info("Default user created: user/user123");
