@@ -17,8 +17,8 @@ You can directly **check and test the project live** using the following links:
 
 | Role  | Username | Password   | Access      |
 |-------|-----------|------------|--------------|
-| Admin | admin     | admin123   | Full CRUD    |
-| User  | user      | user123    | Read-only    |
+| Admin | admin     | admin   | Full CRUD    |
+| User  | user      | user    | Read-only    |
 
 ---
 
@@ -106,8 +106,8 @@ src/
 ### **Default Credentia
 | Role  | Username | Password | Permissions |
 |-------|----------|----------|-------------|
-| Admin | `admin`  | `admin123` | Full CRUD access |
-| User  | `user`   | `user123`  | Read-only access |
+| Admin | `admin`  | `admin` | Full CRUD access |
+| User  | `user`   | `user`  | Read-only access |
 
 ## 📋 API Documentation
 
