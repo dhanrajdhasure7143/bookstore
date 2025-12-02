@@ -49,7 +49,7 @@ public class AuthController {
     }
 
     /**
-     * User registration endpoint
+     * User signup endpoint
      */
     @PostMapping("/register")
     public ResponseEntity<AuthResponse> register(@Valid @RequestBody RegisterRequest registerRequest) {
