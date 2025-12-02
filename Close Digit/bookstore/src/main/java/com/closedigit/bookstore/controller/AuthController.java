@@ -19,7 +19,7 @@ import com.closedigit.bookstore.service.AuthService;
 import jakarta.validation.Valid;
 
 /**
- * Authentication controller for login and registration
+ * Authentication controller for login and signup 
  */
 @RestController
 @RequestMapping("/api/auth")
